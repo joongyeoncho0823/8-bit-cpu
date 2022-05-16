@@ -68,7 +68,7 @@ Then, run "./cpu"
 
 # Files
 
-test1.png test2.png: GTKwaves
-d-type architecture.png r&i-type-architecture.png: Architecture Diagrams
-cpu.v datapath.v dmem.v imem.v alu.v fullAdder.v adder8bit.v: Modules
-\*.asm: Assembly Code
+test1.png test2.png: GTKwaves \
+d-type architecture.png r&i-type-architecture.png: Architecture Diagrams \
+cpu.v datapath.v dmem.v imem.v alu.v fullAdder.v adder8bit.v: Modules \
+\*.asm: Assembly Code \
