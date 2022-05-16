@@ -1,10 +1,10 @@
 # Design:
 
-8-bit CPU
-16-bit instructions
-8 Registers
-4-bit for opcode
-8-bit address bus
+8-bit CPU \
+16-bit instructions \
+8 Registers \
+4-bit for opcode \
+8-bit address bus \
 
 # Registers:
 
@@ -26,23 +26,23 @@ opcode:
 
 # Operation Types
 
-I Type: ADDI
-R Type: ADD AND OR MULT
-D Type: LDUR STUR
+I Type: ADDI \ 
+R Type: ADD AND OR MULT \
+D Type: LDUR STUR \
 
 # Instruction Format:
 
-assign opcode = instruction[15:12];
-assign Rd = instruction[11:8];
-assign Rn = instruction[7:4];
-assign Rm = instruction[3:0];
+assign opcode = instruction[15:12]; \
+assign Rd = instruction[11:8]; \ 
+assign Rn = instruction[7:4]; \
+assign Rm = instruction[3:0]; \
 
 # For I Type:
 
-opcode = opcode
-Rd = Destination Register
-Rn = Input Register
-Rm = Immediate
+opcode = opcode 
+Rd = Destination Register 
+Rn = Input Register 
+Rm = Immediate 
 
 # For D Type:
 
